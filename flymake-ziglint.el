@@ -44,7 +44,7 @@
 (defconst flymake-ziglint-err-line-patterns
   '(("^\\(.*\\):\\([0-9]+\\):\\([0-9]+\\): \\(.*\\)" 1 2 3 nil)))
 
-(defun flymake-ziglint-command (filename)
+(defun flymake-ziglint-command (_filename)
   "Construct a command that flymake can use to check Zig source (FILENAME)."
   (list "ziglint"))
 
