@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flymake-ziglint"
          "0.1.0"
          "Flymake for ziglint")
